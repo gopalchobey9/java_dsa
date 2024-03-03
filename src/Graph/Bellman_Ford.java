@@ -71,4 +71,5 @@ public static void main(String[] args) {
 	bfd.addEdge(1,4,5);
 	bfd.BellMan();
 }
+
 }

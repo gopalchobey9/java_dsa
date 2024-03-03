@@ -55,7 +55,6 @@ public class Dijkstra_Algo {
 					 if(!visited.contains(nbrs)) {
 						 int cost  = rp.cost +map.get(rp.vtx).get(nbrs);
 					    pq.add(new DijkstraPair(nbrs, rp.acqpath +nbrs, cost));
-					 
 					 }
 				 }
 			 }

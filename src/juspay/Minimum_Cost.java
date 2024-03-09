@@ -11,7 +11,6 @@ public class Minimum_Cost {
             this.cost = cost ;
         }
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -40,6 +39,7 @@ public class Minimum_Cost {
                 return o1.cost-o2.cost;
             }
         });
+
         Pair sb = new Pair(src , 0);
         pq.add(sb);
         HashSet<Integer>  visited = new HashSet<>();

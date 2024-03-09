@@ -20,12 +20,10 @@ public binaryTree() {
 }
 private Node CreateTree() {
 	// TODO Auto-generated method stub
-	
-	
-	
+
 	int item = sc.nextInt();
 	Node nn = new Node();
-	nn.data= item ;
+	nn.data= item;
 	boolean hlc = sc.nextBoolean();
 	if(hlc == true) {
 		nn.left=CreateTree();
